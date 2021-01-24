@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ListadoPeliculasComponent } from './peliculas/listado-peliculas/listado-peliculas.component';
 import { ListadoGenericoComponent } from './utilidades/listado-generico/listado-generico.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {MaterialModule} from './material/material.module';
 import { MenuComponent } from './menu/menu/menu.component';
 
 @NgModule({
@@ -18,7 +20,8 @@ import { MenuComponent } from './menu/menu/menu.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
