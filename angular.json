@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "angular-peliculas"
+  "defaultProject": "angular-peliculas",
+  "cli": {
+    "analytics": "c8f81189-60c5-4507-9b3b-73fb99ba227f"
+  }
 }
