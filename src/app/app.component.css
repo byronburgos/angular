@@ -1,9 +1,10 @@
-p {
-    color:red;
-}
 
 .pelicula-contenedor{
     border: 1px solid blue;
     margin-bottom: 1rem;
     padding: 1rem;
+}
+
+.contenedor {
+    margin: 20px;
 }

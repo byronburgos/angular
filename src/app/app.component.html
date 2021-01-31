@@ -1,9 +1,5 @@
 <app-menu></app-menu>
 
-<h2>Listado de Peliculas</h2>
-
-<h2>En cines</h2>
-<app-listado-peliculas [peliculas]="peliculasEnCines"></app-listado-peliculas>
-
-<h2>Futuros estrenos</h2>
-<app-listado-peliculas [peliculas]="peliculasProximosEstrenos"></app-listado-peliculas>
+<div class="contenedor">
+  <router-outlet></router-outlet>
+</div>
