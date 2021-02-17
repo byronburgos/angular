@@ -15,6 +15,7 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "noImplicitAny": false,
+    "strictPropertyInitialization": false,
     "target": "es2015",
     "module": "es2020",
     "lib": [
@@ -25,6 +26,7 @@
   "angularCompilerOptions": {
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "strictPropertyInitialization": false
   }
 }
