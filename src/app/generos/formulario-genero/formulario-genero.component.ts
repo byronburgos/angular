@@ -13,7 +13,7 @@ export class FormularioGeneroComponent implements OnInit {
   constructor(private formBuilder: FormBuilder) { }
 
   form: FormGroup;
-  
+
   @Input()
   modelo: generoCreacionDTO;
 
