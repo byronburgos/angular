@@ -7,6 +7,7 @@ import { ListadoPeliculasComponent } from './peliculas/listado-peliculas/listado
 import { ListadoGenericoComponent } from './utilidades/listado-generico/listado-generico.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {ReactiveFormsModule, FormsModule} from '@angular/forms'
+import {MarkdownModule} from 'ngx-markdown'
 
 import {MaterialModule} from './material/material.module';
 import { MenuComponent } from './menu/menu/menu.component';
@@ -59,7 +60,8 @@ import { InputMarkdownComponent } from './utilidades/input-markdown/input-markdo
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MarkdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
